@@ -1,59 +1,28 @@
 ---
-title: "Screencial"
-description: "A web application enabling users to generate personalized, shareable screenshots for social media with customizable templates and design elements."
-image: "https://api.dicebear.com/9.x/glass/svg?seed=Brooklynn"
-startDate: "2023-07-01"
-endDate: "2024-06-31"
+title: "Rippling Lights"
+description: "This project is a web application designed to simulate a mesmerizing rippling effect on a string of virtual Christmas lights. It showcases advanced front-end skills in managing animation timing, user input, and dynamic styling using pure CSS and JavaScript."
+image: "https://github.com/user-attachments/assets/a373c1ae-6ae4-49b9-af1d-782e0917e72a"
 skills: ["Laravel", "Livewire", "Stripe", "Tailwind CSS"]
-demoLink: "https://screencial.art"
+demoLink: "https://danielalab.github.io/Christmas-Lights/index.html"
+sourceLink: "https://github.com/Danielalab/Christmas-Lights"
 ---
 
 ## Overview
 
-Screencial is a web-based platform designed to help users create stunning, professional-looking screenshots for social media posts. With an intuitive interface and powerful customization options, it enables content creators, marketers, and developers to generate eye-catching visuals that enhance their online presence.
+This project is a web application designed to simulate a mesmerizing rippling effect on a string of virtual Christmas lights. It showcases advanced front-end skills in managing animation timing, user input, and dynamic styling using pure CSS and JavaScript.
 
-## Key Features
+### Core Functionality
 
-### Template Library
-Choose from multiple pre-designed templates optimized for different platforms:
-- **X (Twitter)** - Perfect for tweets and thread screenshots
-- **Instagram** - Stories and post formats
-- **LinkedIn** - Professional networking content
-- **Code Screenshot** - Syntax-highlighted code snippets
-- **Custom Screenshot** - Flexible blank canvas
-- Coming soon: Reddit, WhatsApp, Telegram, TikTok, GitHub, and Testimonial templates
+- Rippling Animation: The application draws a sequence of circles (lights) and dynamically changes their intensity in a continuous, sequential pattern. When one circle brightens, its immediate predecessor returns to its standard intensity, creating the visual effect of light "traveling" down the string.
+- Start/Stop Control: The user has control over the animation via a dedicated button to start or pause the display.
+- Adjustable Timing: The user can specify the time interval (in milliseconds) that controls the speed of the intensity change, allowing for faster or slower rippling.
 
-### Advanced Customization
-- **Multiple Aspect Ratios**: Square, Auto, Standard, Wide, and Mobile formats
-- **Real-time Live Editing**: See your changes instantly as you customize
-- **Avatar Options**: Custom uploads or randomly generated avatars
-- **Background Styling**: Solid colors, gradients, or custom images
-- **Fine-tuning Controls**: Adjust colors, shadows, roundness, padding, and scale
-- **High-resolution Export**: One-click download of your finished screenshots
+#### 🌟 Bonus Features Implemented
 
-### Flexible Pricing
+- Intensity Control: Users can specify the exact brightness value (e.g., a CSS filter or opacity value) when a light is "on."
+- Dynamic Count: The application allows the user to specify the number of "GLOVES" (lights) included in the display, making the array length flexible.
 
-**Free Tier** - Perfect for getting started:
-- Basic templates and customization
-- Standard resolution exports
-- 3 screenshots per day
-
-**Premium Tier** - €7/month (or €5/month billed annually):
-- All premium templates
-- Advanced customization options
-- Unlimited screenshots
-- No watermarks
-- Priority support
-
-## Technical Highlights
-
-Built with **Laravel** and **Livewire**, Screencial delivers a reactive, dynamic user experience without requiring heavy JavaScript frameworks. The platform leverages:
-
-- **Livewire Framework**: Real-time component updates and seamless interactivity
-- **Stripe Integration**: Secure payment processing for premium subscriptions
-- **Tailwind CSS**: Modern, responsive design system
-- **Encrypted Storage**: Secure data transmission and storage for user content
-
-## Impact
-
-Screencial has become a go-to tool for content creators looking to elevate their social media presence with professional, branded screenshots that stand out in crowded feeds.
+### Technology
+- HTML5 / DOM:	Used to structure the light components. The application dynamically generates the specified number of "lights" based on user input (the "GLOVES" feature).
+- JavaScript (ES6+):	Manages the core logic, including the timer function (setInterval), handling user input, and updating the state of each light in the sequence. Directly manipulates the light elements' classes or inline styles to trigger the intensity changes.
+- CSS3 Animation:	Used to create the smooth transition effect when a light brightens or dims.

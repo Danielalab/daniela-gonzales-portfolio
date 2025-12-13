@@ -10,17 +10,6 @@ interface Props {
 
 const { project } = Astro.props;
 
-function formatPeriod(startDate: Date, endDate?: Date) {
-  const options: Intl.DateTimeFormatOptions = {
-    month: "short",
-    year: "numeric",
-  };
-  const start = startDate.toLocaleDateString("en-US", options);
-  const end = endDate
-    ? endDate.toLocaleDateString("en-US", options)
-    : "Present";
-  return `${start} - ${end}`;
-}
 ---
 
 <article class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow">
@@ -39,9 +28,6 @@ function formatPeriod(startDate: Date, endDate?: Date) {
     <h3 class="card-title hover:text-primary transition-colors">
       <a href={`/projects/${project.id}`}>{project.data.title}</a>
     </h3>
-    <time class="text-sm text-base-content/60">
-      {formatPeriod(project.data.startDate, project.data.endDate)}
-    </time>
     <p class="text-base-content/80">{project.data.description}</p>
     <div class="flex flex-wrap gap-2 mt-2">
       {project.data.skills.map((skill) => <SkillBadge skill={skill} />)}
