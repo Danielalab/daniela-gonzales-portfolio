@@ -1,6 +1,14 @@
 ---
 title: "About Me"
-photo: "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Destiny&scale=90&backgroundColor=763900,9e5622,ecad80,f2d3b1,c0aede,b6e3f4"
+photo: "/avatar.png"
+---
+**Senior Front-End Developer | React & Next.js Specialist**
+
+* **7+ Years Experience:** Specializing in high-traffic websites.
+* **Key Achievement:** Led a successful full-scale migration from CRA to Next.js.
+* **Full-Stack Familiar:** Comfortable with Node.js and MongoDB.
+* **Collaborator:** Experienced in mentoring and working closely with Product/Design teams.
+
 ---
 
-I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly web applications. With experience in **modern frameworks and technologies**, I love turning ideas into reality through code. When I'm not coding, you can find me **exploring new technologies**, contributing to open source, or enjoying a good cup of coffee.
+**Personal Interests:** 💃 Salsa Dancing | 🐕 Dog Lover | 🐈 Cat Enthusiast

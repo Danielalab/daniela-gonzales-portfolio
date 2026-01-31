@@ -1,7 +1,7 @@
 ---
 title: "Rimac Insurance Quote Generator"
 description: "This project is a single-page web application developed for the Hacking Challenge Rimac. It serves as a comprehensive tool enabling customers to easily quote and customize their vehicle insurance plan 🚗."
-image: "https://github.com/user-attachments/assets/f2c95ba1-8843-49e1-9f91-0d46a79eb10c"
+image: "https://private-user-images.githubusercontent.com/32286663/543160419-a04fde49-8135-4c37-a4ce-7f9025a7f012.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njk4MjgzODUsIm5iZiI6MTc2OTgyODA4NSwicGF0aCI6Ii8zMjI4NjY2My81NDMxNjA0MTktYTA0ZmRlNDktODEzNS00YzM3LWE0Y2UtN2Y5MDI1YTdmMDEyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTMxVDAyNTQ0NVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTJlNGJlODA1MDAyNzcxYzcwMjQ5Y2JiNWU2YjViNDZlMGE1N2Q0ODBiNzcxN2VlYzdkNWQ0MGZiODkyNGViMjkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.4dqMjhWeGqWov983BvAf5ivOajpZpszwCbO8eJnjOdA"
 startDate: "2024-12-07"
 skills: ["React", "React Router", "Sass (SCSS)", "Bootstrap", "Eslint", "Git & GitHub", "Firebase Hosting"]
 sourceLink: "https://github.com/Danielalab/hacking-challenge-rimac"

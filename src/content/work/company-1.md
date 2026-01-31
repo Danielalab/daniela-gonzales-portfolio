@@ -1,10 +1,10 @@
 ---
-title: "Tech Corp"
-subtitle: "Senior Full Stack Developer"
-logo: "https://api.dicebear.com/9.x/shapes/svg?seed=Easton"
-startDate: "2021-06-01"
-endDate: "2024-01-01"
-link: "https://example.com"
+title: "Laboratoria"
+subtitle: "Coach Developer"
+logo: "https://cdn.prod.website-files.com/68914a2f74cc8d5a9b0ba559/689382fd16f1e55dd2b990c7_Group%2017.svg"
+startDate: "2018-04"
+endDate: "2021-02"
+link: "https://laboratoria.la/en"
 ---
 
-Led development of multiple high-impact web applications using React, Node.js, and PostgreSQL. Mentored junior developers and implemented best practices for code quality and testing.
+Led the Front-end specialization track and coached over 100 Bootcamp students in their learning process, solving complex technical (React, Node.js) and soft skills inquiries, and providing constructive feedback.

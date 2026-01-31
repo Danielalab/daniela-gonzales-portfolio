@@ -1,10 +1,10 @@
 ---
-title: "University of Technology"
-subtitle: "Bachelor of Science in Computer Science"
-logo: "https://api.dicebear.com/9.x/icons/svg?seed=Nolan"
-startDate: "2015-09-01"
-endDate: "2019-05-30"
-link: "https://university.edu"
+title: "Laboratoria"
+subtitle: "Front End development"
+logo: "https://cdn.prod.website-files.com/68914a2f74cc8d5a9b0ba559/689382fd16f1e55dd2b990c7_Group%2017.svg"
+startDate: "2017"
+endDate: "2018"
+link: "https://laboratoria.la/en/quienes-somos/sobre-laboratoria"
 ---
 
-Focused on software engineering, algorithms, and data structures. Graduated with honors and participated in various coding competitions.
+Focused on web development, by creating different projects using React and JavaScript.

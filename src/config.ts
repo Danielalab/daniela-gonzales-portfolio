@@ -108,29 +108,8 @@ export const siteConfig: SiteConfig = {
   },
   enableThemeSelector: true,
   extraLinks: {
-    enable: true,
-    links: [
-      {
-        link: "/blog/guides/bloomfolio-complete-guide",
-        icon: Flower2,
-        label: "Bloomfolio Guide",
-      },
-      {
-        link: "/blog/guides/content-collections-guide",
-        icon: BookOpen,
-        label: "Content Guide",
-      },
-      {
-        link: "/blog/guides/markdown-guide",
-        icon: FileText,
-        label: "Markdown Guide",
-      },
-      {
-        link: "https://github.com/lauroguedes/bloomfolio",
-        icon: CodeXml,
-        label: "GitHub Repo",
-      },
-    ],
+    enable: false,
+    links: [],
   },
   sections: {
     about: true,
