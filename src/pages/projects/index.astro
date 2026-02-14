@@ -5,10 +5,6 @@ import ProjectCard from "../../components/ProjectCard.astro";
 
 const projects = await getCollection("projects");
 
-// Sort by start date, most recent first
-const sortedProjects = projects.sort(
-  (a, b) => b.data.startDate.getTime() - a.data.startDate.getTime()
-);
 ---
 
 <Layout
@@ -47,7 +43,7 @@ const sortedProjects = projects.sort(
 
     <!-- Projects Grid -->
     {
-      sortedProjects.length === 0 ? (
+      projects.length === 0 ? (
         <div class="text-center py-20">
           <p class="text-2xl text-base-content/60">
             No projects yet. Check back soon!
@@ -55,7 +51,7 @@ const sortedProjects = projects.sort(
         </div>
       ) : (
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {sortedProjects.map((project) => (
+          {projects.map((project: any) => (
             <ProjectCard project={project} />
           ))}
         </div>
