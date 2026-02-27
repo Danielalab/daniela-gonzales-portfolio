@@ -1,7 +1,7 @@
 ---
 title: "Rippling Lights"
 description: "This project is a web application designed to simulate a mesmerizing rippling effect on a string of virtual Christmas lights. It showcases advanced front-end skills in managing animation timing, user input, and dynamic styling using pure CSS and JavaScript."
-image: "https://private-user-images.githubusercontent.com/32286663/543159733-d4ed7bf1-ed6f-4e16-8422-c2baddb00356.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Njk4MjgxMTMsIm5iZiI6MTc2OTgyNzgxMywicGF0aCI6Ii8zMjI4NjY2My81NDMxNTk3MzMtZDRlZDdiZjEtZWQ2Zi00ZTE2LTg0MjItYzJiYWRkYjAwMzU2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjAxMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwMTMxVDAyNTAxM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNiMWNiOWI3MmI3NDQ1MDhlMWIxMjA0ZjI5MTc5OGQ3NGJmZGMzZWM3YzkwMjI5ZmExY2FkYTY1N2NkYmY1YjYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.v7agYQVvqHXguU87xdixKCEZs7sXAuyesU3fPohridw"
+image: "../../assets/lights.png"
 skills: ["CSS", "DOM", "HTML", "JavaScript"]
 demoLink: "https://danielalab.github.io/Christmas-Lights/index.html"
 sourceLink: "https://github.com/Danielalab/Christmas-Lights"
